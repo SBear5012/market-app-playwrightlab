@@ -14,6 +14,7 @@ import { defineConfig, devices } from '@playwright/test';
 export default defineConfig({
   testDir: './tests',
   /* Run tests in files in parallel */
+  
   use: {
 baseURL: 'http://127.0.0.1:5173',
 trace: 'on-first-retry',
