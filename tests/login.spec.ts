@@ -18,7 +18,7 @@
 // });
 
 import { test, expect } from '@playwright/test';
-test('TC01 Login ส าเร็จ', async ({ page }) => {
+test('TC00 Login ส าเร็จ', async ({ page }) => {
 // 1. เปิดหน้า Login
 await page.goto('http://localhost:5173/');
 // 2. กรอกหมายเลขโทรศัพท์
